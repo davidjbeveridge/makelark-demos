@@ -1,0 +1,41 @@
+name: Verify original Auto Vos media
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/verify-auto-vos-media.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Locate the original public video without substituting assets
+        run: |
+          python3 - <<'PY'
+          import hashlib, html, re, urllib.request
+          expected = '5a07968ebb9ca3247c6c53f4daa2993b98409f5c596e3dfd691f6b7d9913fa6a'
+          candidates = set()
+          for url in ('https://www.theautovos.com/', 'https://www.theautovos.com/?format=json'):
+              try:
+                  request = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      text = response.read(4_000_000).decode('utf-8', 'replace')
+                  text = html.unescape(text).replace('\\/', '/')
+                  for match in re.finditer(r'https://[^\s<>"\x27]+\.mp4(?:\?[^\s<>"\x27]*)?', text):
+                      candidates.add(match.group(0))
+                  for match in list(re.finditer(r'(?:videoAsset|videoId|playbackUrl|videoSourceProvider|assetUrl|\.m3u8)', text))[:16]:
+                      print('MEDIA_CONTEXT', text[max(0,match.start()-100):match.end()+220])
+              except Exception as exc:
+                  print('SOURCE_UNAVAILABLE', url, type(exc).__name__, str(exc))
+          for url in sorted(candidates)[:8]:
+              print('VIDEO_URL', url)
+              try:
+                  with urllib.request.urlopen(url, timeout=45) as response:
+                      data = response.read(30_000_001)
+                  digest = hashlib.sha256(data).hexdigest()
+                  print('VIDEO_SHA256', digest, 'BYTES', len(data), 'EXACT_UPLOAD_MATCH', digest == expected)
+              except Exception as exc:
+                  print('VIDEO_UNAVAILABLE', type(exc).__name__, str(exc))
+          PY
