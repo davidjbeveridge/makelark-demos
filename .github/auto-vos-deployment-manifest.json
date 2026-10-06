@@ -1,0 +1,17 @@
+{
+  "auto-vos/app.js": {"sha256":"839a3a6b1d7a61ad5d61d919710b7b65c9b2fc971abe054fc1d3a9cd37212125","bytes":11460},
+  "auto-vos/assets/audi-glass.webp": {"sha256":"85f9d4c7f4b36fcf1995b5de61c579cefc4a3c91f0b767bb02b5a612a586c91d","bytes":117756},
+  "auto-vos/assets/auto-vos-logo-black.svg": {"sha256":"9e219e293c0b6c53a557ee435951e622cbd98ada4304eaa62412630fa2360bcf","bytes":23377},
+  "auto-vos/assets/auto-vos-logo.svg": {"sha256":"2ed9971076978b2d24bd0a83ba4f89d27ba3fb33e390d2e2e39037bd68186513","bytes":23377},
+  "auto-vos/assets/ceramic-application.webp": {"sha256":"25db5638614f8cfaa99983ede549328eb5258d5322853e0079be633358a9b57b","bytes":63136},
+  "auto-vos/assets/favicon.svg": {"sha256":"360beba098d6ac5a38dd7fb183f1169a2b294b9f3272b4308983bde2c60dac92","bytes":23573},
+  "auto-vos/assets/hero-poster.webp": {"sha256":"8faded66b7952da53a788ebb755f15231858876355634a8108cf42515fb5a074","bytes":80314},
+  "auto-vos/assets/porsche-silver.webp": {"sha256":"6093ad0259c22fae51ec3595748517a44043874e88b3239568da1f1e86577af1","bytes":105064},
+  "auto-vos/assets/porsche-yellow.webp": {"sha256":"3b28fe4b35d8513f9757a4edea39b61be253e486389e0f0c1ce4721dc878358c","bytes":82228},
+  "auto-vos/assets/ppf-installation.webp": {"sha256":"a3c9f305233f3b2e5c550e2aecd7f5977b36da4138f6698e8e6d49d9d146d02c","bytes":159628},
+  "auto-vos/assets/precision-install.webp": {"sha256":"34d4d24c925778b1e32568c28edb9c4b8f9625139e624140af198c381c003529","bytes":105254},
+  "auto-vos/assets/shop-film-mobile.mp4": {"sha256":"ad629dcd23e2ee3c7d3b862818fab56a5b1238342c52497bd6a4eed28de6f30b","bytes":1890304},
+  "auto-vos/assets/shop-film.mp4": {"sha256":"c6a87b7b01ce85413acffdd7b07ac0894aad17935e89ab238cb1ca592d8147a3","bytes":3902307},
+  "auto-vos/index.html": {"sha256":"c039c0a55af82ce0399a58d1123862bf53ed1e136d3dad2146328c8fa147d293","bytes":19289},
+  "auto-vos/styles.css": {"sha256":"62a2ed7b012474273157904b8d5e7c01fc41d0259fb8baf65cf41c8cb8570745","bytes":42198}
+}
