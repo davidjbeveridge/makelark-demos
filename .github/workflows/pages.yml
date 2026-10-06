@@ -8,46 +8,38 @@ on:
       - '**/*.css'
       - '**/*.js'
       - '**/assets/**'
+      - '.github/auto-vos-deployment-manifest.json'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: github-pages
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 5
     steps:
-      - name: Check out the approved source
-        uses: actions/checkout@v4
-      - name: Validate assets and stage only static demo directories
+      - name: Check out approved source
+        uses: actions/checkout@v5
+      - name: Verify all approved bytes and stage static demos
         run: |
           python3 - <<'PY'
-          import html, pathlib, shutil, urllib.parse
+          import hashlib, html, json, pathlib, shutil, urllib.parse
           root = pathlib.Path('.')
-          required = (
-              'index.html', 'styles.css', 'app.js',
-              'assets/auto-vos-logo.svg', 'assets/auto-vos-logo-black.svg',
-              'assets/favicon.svg', 'assets/hero-poster.webp',
-              'assets/audi-glass.webp', 'assets/ceramic-application.webp',
-              'assets/porsche-silver.webp', 'assets/porsche-yellow.webp',
-              'assets/ppf-installation.webp', 'assets/precision-install.webp',
-              'assets/shop-film.mp4', 'assets/shop-film-mobile.mp4',
-          )
-          for name in required:
-              path = root / 'auto-vos' / name
-              if not path.is_file() or path.stat().st_size == 0:
-                  raise SystemExit('Approved Auto Vos asset not uploaded yet: ' + str(path))
+          manifest = json.loads((root / '.github/auto-vos-deployment-manifest.json').read_text())
+          for name, expected in manifest.items():
+              path = root / name
+              if not path.is_file() or path.is_symlink():
+                  raise SystemExit('Missing or unsafe asset: ' + name)
+              data = path.read_bytes()
+              if len(data) != expected['bytes'] or hashlib.sha256(data).hexdigest() != expected['sha256']:
+                  raise SystemExit('Approved asset checksum mismatch: ' + name)
+              print('VERIFIED', name, len(data))
           output = root / '_site'
           output.mkdir(exist_ok=True)
           demos = []
@@ -63,14 +55,29 @@ jobs:
           (output / '.nojekyll').touch()
           links = ''.join('<li><a href="' + urllib.parse.quote(name, safe='') + '/">' + html.escape(name) + '</a></li>' for name in demos)
           (output / 'index.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>MakeLark demos</title><h1>MakeLark demos</h1><ul>' + links + '</ul></html>', encoding='utf-8')
-          print('Staged demo directories: ' + ', '.join(demos))
+          (output / 'robots.txt').write_text('User-agent: *\nDisallow: /\n', encoding='utf-8')
+          print('Staged: ' + ', '.join(demos))
           PY
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: Upload static site
+      - name: Upload verified Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - name: Deploy
+          retention-days: 7
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Deploy verified artifact
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
