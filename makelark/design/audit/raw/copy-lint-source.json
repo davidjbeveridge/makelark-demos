@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "kind": "visual-copy-lint",
+  "summary": {
+    "items": 110,
+    "findings": 12,
+    "duplicate_groups": 2,
+    "by_signal": {
+      "filler-introduction": 1,
+      "long-ui-string": 9,
+      "ornamental-ellipsis": 1,
+      "title-case-saturation": 1
+    },
+    "by_severity": {
+      "low": 12
+    }
+  },
+  "items": [
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > a",
+      "text": "Skip to content",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > header > div > a:nth-of-type(1)",
+      "text": "MakeLark home",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > header > div > a:nth-of-type(1) > img",
+      "text": "MakeLark",
+      "kind": "alt"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > header > div > nav",
+      "text": "Meet Studio For your business Questions",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > header > div > nav",
+      "text": "Main navigation",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > header > div > nav > a:nth-of-type(1)",
+      "text": "Meet Studio",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > header > div > nav > a:nth-of-type(2)",
+      "text": "For your business",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > header > div > nav > a:nth-of-type(3)",
+      "text": "Questions",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > header > div > a:nth-of-type(2)",
+      "text": "Get early access ↗",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Introducing MakeLark Studio",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#hero-title",
+      "text": "A better website. A simpler way to run it.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "text": "Your business keeps moving. Your website should, too. Create, improve, and manage it with AI. You keep the final say.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(1)",
+      "text": "Get early access",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+      "text": "Try the Studio demo",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+      "text": "In development. Made for your next chapter.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-demo",
+      "text": "Studio / Northline Interactive example Site Change N northline.example Original NORTHLINE HOMES Properties Our approach A PLACE FOR WHAT COMES NEXT Find a place to call your own. Thoughtful spaces. Local knowledge. A home that feels like you. Explore homes 1 Make a change Your business. A clear first impression. 01 — 03 YOUR WEBSITE, YOUR DIRECTION What’s your next move? Start with a simple request. See what changes before you decide. You A simple request Add a private viewing request. Preview the change A prepared example. Try a simple change. 1 Describe 2 Review 3 Approve Explore the sample website Website creation, with you in control.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-demo",
+      "text": "Interactive MakeLark Studio example",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > aside",
+      "text": "Site Change N",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > aside",
+      "text": "Example workspace",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-feedback-jump",
+      "text": "Change",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-feedback-jump",
+      "text": "Go to the example website change",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-site-photo",
+      "text": "Illustrative modern home with stone walls, large windows and warm evening light.",
+      "kind": "alt"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-site-heading",
+      "text": "Find a place to call your own.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-site-body",
+      "text": "Thoughtful spaces. Local knowledge. A home that feels like you.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-site-cta",
+      "text": "Explore homes",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-annotation",
+      "text": "1 Make a change",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-annotation",
+      "text": "See the suggested website change",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-reset",
+      "text": "Reset the website example",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-reset",
+      "text": "Reset example",
+      "kind": "title"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-panel-title",
+      "text": "What’s your next move?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-panel-intro",
+      "text": "Start with a simple request. See what changes before you decide.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-request-text",
+      "text": "Add a private viewing request.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-main-action",
+      "text": "Preview the change",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#studio-action-note",
+      "text": "A prepared example. Try a simple change.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div:nth-of-type(2) > div > div:nth-of-type(2) > section > div:nth-of-type(5)",
+      "text": "1 Describe 2 Review 3 Approve",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div:nth-of-type(2) > div > div:nth-of-type(2) > section > div:nth-of-type(5)",
+      "text": "Example progress",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(1) > div:nth-of-type(2) > p",
+      "text": "An interactive example of the Studio workflow. Sample business and imagery; no live AI or publishing.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(2) > div:nth-of-type(1) > p",
+      "text": "FROM FIRST IMPRESSION TO WHAT’S NEXT",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#intro-title",
+      "text": "Your business deserves a website that keeps up.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > h3",
+      "text": "Make the right impression.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > p",
+      "text": "Bring your business, your expertise, and your next customer’s needs into one considered website.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > h3",
+      "text": "Point to what needs changing.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > p",
+      "text": "Leave feedback right on your site. Explain the change in plain language, then review the result.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > h3",
+      "text": "Keep it all in one place.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > p",
+      "text": "Website, content, hosting, and ongoing improvements. Designed to work together from the start.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "section:nth-of-type(3) > div > div:nth-of-type(1) > div > p",
+      "text": "BUILT AROUND YOUR BUSINESS",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#business-title",
+      "text": "You know your business. Let your website show it.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(3) > div > div:nth-of-type(1) > p",
+      "text": "Different work. Different customers. A website that makes your value clear and the next step easy.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(3) > div > div:nth-of-type(2)",
+      "text": "Automotive Accounting Real estate Law Manufacturing Restaurants",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(3) > div > div:nth-of-type(2)",
+      "text": "Explore business examples",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-automotive",
+      "text": "Automotive",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-accounting",
+      "text": "Accounting",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-real-estate",
+      "text": "Real estate",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-law",
+      "text": "Law",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-manufacturing",
+      "text": "Manufacturing",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#tab-restaurant",
+      "text": "Restaurants",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#business-image",
+      "text": "An automotive professional talking with a customer in a modern workshop",
+      "kind": "alt"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#business-headline",
+      "text": "Great work deserves to be seen.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#business-description",
+      "text": "Make your services easy to understand. Show the care behind the work. Give the right customer a clear way to get in touch.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#business-request",
+      "text": "“We’re adding fleet servicing. Give it a page and a way to request a quote.”",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "section:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > a",
+      "text": "Let’s talk about your website",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(3) > div > p",
+      "text": "Illustrative businesses and AI-generated photography. Your site starts with your own brand, content, and expertise.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(4) > div > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "THINK BEYOND LAUNCH DAY",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#continuity-title",
+      "text": "Your next move is already coming.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(4) > div > div:nth-of-type(1) > p:nth-of-type(2)",
+      "text": "A new service. A seasonal offer. Another location. Your website should be ready to tell the story.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(4) > div > div:nth-of-type(1) > p:nth-of-type(3)",
+      "text": "We’re building Studio to make ongoing changes part of running your business, with visual feedback, AI-assisted updates, and a clear review before anything goes live.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(4) > div > div:nth-of-type(1) > a",
+      "text": "See how a change works",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(4) > div > div:nth-of-type(2)",
+      "text": "One place to move things forward. 01 Tell Studio what’s next. Point to a detail or describe a bigger idea. ↗ 02 See it before it’s live. Compare the update with what you have. ⇄ 03 Make the final call. Approve the change when it feels right. ✓ Your direction. A clearer path from idea to update.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(4) > div > div:nth-of-type(2)",
+      "text": "The planned Studio workflow",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > h3",
+      "text": "Tell Studio what’s next.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > p",
+      "text": "Point to a detail or describe a bigger idea.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(3) > div > h3",
+      "text": "See it before it’s live.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(3) > div > p",
+      "text": "Compare the update with what you have.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(4) > div > h3",
+      "text": "Make the final call.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "div > div:nth-of-type(2) > div:nth-of-type(4) > div > p",
+      "text": "Approve the change when it feels right.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(5) > div:nth-of-type(1) > p",
+      "text": "A FEW GOOD QUESTIONS",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#questions-title",
+      "text": "Before your next move.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(5) > div:nth-of-type(1) > a",
+      "text": "Ask us something else",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(1) > summary",
+      "text": "What is MakeLark Studio?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(1) > p",
+      "text": "An AI-native product for creating and running a business website. We’re bringing website creation, visual feedback, content updates, and managed hosting into one place.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(2) > summary",
+      "text": "Can I use it today?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(2) > p",
+      "text": "Studio is in development. The interactive example above shows the intended workflow. Request early access to tell us about your business and the website you want to build or improve.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(3) > summary",
+      "text": "Do I need to know how to build websites?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(3) > p",
+      "text": "Studio is being designed for people who know their business. Describe what you need in plain language, review the work visually, and decide what goes live.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(4) > summary",
+      "text": "What if I already have a website?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(4) > p",
+      "text": "Include the link when you request early access. We’ll discuss what is working, what needs to change, and what moving to Studio would involve.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(5) > summary",
+      "text": "Will AI change my site without asking?",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(5) > p",
+      "text": "The workflow we’re building puts review before publishing. You can inspect a proposed change, compare it with the current version, and choose whether to approve it.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > div > p:nth-of-type(1)",
+      "text": "MAKE YOUR NEXT MOVE",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#access-title",
+      "text": "Your business. A better website. Let’s make it happen.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > div > p:nth-of-type(2)",
+      "text": "We’re building MakeLark Studio with real businesses in mind. Tell us what yours needs next.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "section:nth-of-type(6) > div > div > div > a",
+      "text": "admin@makelark.com",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > h3",
+      "text": "Request early access",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > p:nth-of-type(1)",
+      "text": "A little about you. A useful place to start.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > label:nth-of-type(1)",
+      "text": "Your name",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#contact-name",
+      "text": "First and last name",
+      "kind": "placeholder"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > label:nth-of-type(2)",
+      "text": "Work email",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#contact-email",
+      "text": "you@yourbusiness.com",
+      "kind": "placeholder"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > label:nth-of-type(3)",
+      "text": "Business or website (optional)",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#contact-website",
+      "text": "Your business name or website",
+      "kind": "placeholder"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#contact-goal-label",
+      "text": "What would you like to improve? (optional)",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "#contact-goal",
+      "text": "A new site, a new service, a better first impression…",
+      "kind": "placeholder"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > button",
+      "text": "Prepare my request",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(6) > div > form > p:nth-of-type(2)",
+      "text": "Creates an email draft. Nothing is sent until you send it.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > footer > div:nth-of-type(1) > a",
+      "text": "MakeLark home",
+      "kind": "aria-label"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > footer > div:nth-of-type(1) > a > img",
+      "text": "MakeLark",
+      "kind": "alt"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > footer > div:nth-of-type(1) > p",
+      "text": "Creative technology. Practical possibility.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > footer > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "MakeLark Studio is a product by MakeLark.",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "html > body > footer > div:nth-of-type(2) > p:nth-of-type(2)",
+      "text": "© 2026 MakeLark. Get in touch ↗",
+      "kind": "text"
+    },
+    {
+      "source": "page-proof/copy.json",
+      "locator": "body > footer > div:nth-of-type(2) > p:nth-of-type(2) > a",
+      "text": "Get in touch ↗",
+      "kind": "text"
+    }
+  ],
+  "findings": [
+    {
+      "id": "filler-introduction",
+      "severity": "low",
+      "description": "Filler opening that delays the useful statement.",
+      "item_index": 9,
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Introducing MakeLark Studio",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 15,
+      "character_count": 646,
+      "source": "page-proof/copy.json",
+      "locator": "#studio-demo",
+      "text": "Studio / Northline Interactive example Site Change N northline.example Original NORTHLINE HOMES Properties Our approach A PLACE FOR WHAT COMES NEXT Find a place to call your own. Thoughtful spaces. Local knowledge. A home that feels like you. Explore homes 1 Make a change Your business. A clear first impression. 01 — 03 YOUR WEBSITE, YOUR DIRECTION What’s your next move? Start with a simple request. See what changes before you decide. You A simple request Add a private viewing request. Preview the change A prepared example. Try a simple change. 1 Describe 2 Review 3 Approve Explore the sample website Website creation, with you in control.",
+      "kind": "text"
+    },
+    {
+      "id": "title-case-saturation",
+      "severity": "low",
+      "description": "Most words are title-cased; verify this matches the voice and UI role.",
+      "item_index": 48,
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(3) > div > div:nth-of-type(2)",
+      "text": "Automotive Accounting Real estate Law Manufacturing Restaurants",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 58,
+      "character_count": 122,
+      "source": "page-proof/copy.json",
+      "locator": "#business-description",
+      "text": "Make your services easy to understand. Show the care behind the work. Give the right customer a clear way to get in touch.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 65,
+      "character_count": 165,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(4) > div > div:nth-of-type(1) > p:nth-of-type(3)",
+      "text": "We’re building Studio to make ongoing changes part of running your business, with visual feedback, AI-assisted updates, and a clear review before anything goes live.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 67,
+      "character_count": 295,
+      "source": "page-proof/copy.json",
+      "locator": "body > main > section:nth-of-type(4) > div > div:nth-of-type(2)",
+      "text": "One place to move things forward. 01 Tell Studio what’s next. Point to a detail or describe a bigger idea. ↗ 02 See it before it’s live. Compare the update with what you have. ⇄ 03 Make the final call. Approve the change when it feels right. ✓ Your direction. A clearer path from idea to update.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 79,
+      "character_count": 168,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(1) > p",
+      "text": "An AI-native product for creating and running a business website. We’re bringing website creation, visual feedback, content updates, and managed hosting into one place.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 81,
+      "character_count": 182,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(2) > p",
+      "text": "Studio is in development. The interactive example above shows the intended workflow. Request early access to tell us about your business and the website you want to build or improve.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 83,
+      "character_count": 155,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(3) > p",
+      "text": "Studio is being designed for people who know their business. Describe what you need in plain language, review the work visually, and decide what goes live.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 85,
+      "character_count": 141,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(4) > p",
+      "text": "Include the link when you request early access. We’ll discuss what is working, what needs to change, and what moving to Studio would involve.",
+      "kind": "text"
+    },
+    {
+      "id": "long-ui-string",
+      "severity": "low",
+      "description": "String exceeds the configured 120-character review threshold.",
+      "item_index": 87,
+      "character_count": 164,
+      "source": "page-proof/copy.json",
+      "locator": "main > section:nth-of-type(5) > div:nth-of-type(2) > details:nth-of-type(5) > p",
+      "text": "The workflow we’re building puts review before publishing. You can inspect a proposed change, compare it with the current version, and choose whether to approve it.",
+      "kind": "text"
+    },
+    {
+      "id": "ornamental-ellipsis",
+      "severity": "low",
+      "description": "Ellipsis can create vague or artificial suspense in UI copy.",
+      "item_index": 101,
+      "source": "page-proof/copy.json",
+      "locator": "#contact-goal",
+      "text": "A new site, a new service, a better first impression…",
+      "kind": "placeholder"
+    }
+  ],
+  "duplicates": [
+    {
+      "text": "makelark home",
+      "count": 2,
+      "locations": [
+        {
+          "source": "page-proof/copy.json",
+          "locator": "html > body > header > div > a:nth-of-type(1)"
+        },
+        {
+          "source": "page-proof/copy.json",
+          "locator": "html > body > footer > div:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "text": "makelark",
+      "count": 2,
+      "locations": [
+        {
+          "source": "page-proof/copy.json",
+          "locator": "body > header > div > a:nth-of-type(1) > img"
+        },
+        {
+          "source": "page-proof/copy.json",
+          "locator": "body > footer > div:nth-of-type(1) > a > img"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Review signals only. Rewriting requires product facts and protected-copy constraints."
+}

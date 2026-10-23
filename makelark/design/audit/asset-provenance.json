@@ -1,0 +1,30 @@
+{
+  "status": "reviewed",
+  "source": "User-supplied makelark-brand-and-storyboard.html; original brand assets recovered without changing identity.",
+  "assets": [
+    {
+      "path": "assets/wordmark.svg",
+      "rights": "cleared",
+      "basis": "Existing user-supplied identity asset"
+    },
+    {
+      "path": "assets/lark.svg",
+      "rights": "cleared",
+      "basis": "Existing user-supplied identity asset"
+    },
+    {
+      "path": "assets/manrope-OFL.txt",
+      "rights": "cleared",
+      "basis": "SIL Open Font License accompanies self-hosted Manrope"
+    },
+    {
+      "path": "assets/*.webp",
+      "rights": "cleared",
+      "basis": "Existing generated business illustrations from the supplied guide; no real-client or photography claim"
+    }
+  ],
+  "limits": [
+    "Business names and scenes are fictional examples.",
+    "No third-party reference image has been introduced as production artwork."
+  ]
+}

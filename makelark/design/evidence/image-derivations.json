@@ -1,0 +1,110 @@
+{
+  "operation": "Lossy image encoding for repository review size; pixel dimensions unchanged.",
+  "raw_pngs_preserved_outside_repository": true,
+  "derivations": [
+    {
+      "original_path": "design/evidence/demo-review-desktop.png",
+      "original_sha256": "46a04a1553f2fdd8645ea2c3fbd06875eef16a44ff84c50a4d4bc4bee0bcde9c",
+      "derived_path": "design/evidence/demo-review-desktop.webp",
+      "derived_sha256": "a0b270e73b739d08d75d03d970511917cbfd23b53ac448b8c9f5bbc782b05d23",
+      "original_bytes": 375999,
+      "derived_bytes": 71268,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1184,
+        558
+      ]
+    },
+    {
+      "original_path": "design/evidence/demo-review-mobile.png",
+      "original_sha256": "73266478a74d718881f0dc3147bcfd5539ab55f1d17dce28cc5533005973efc6",
+      "derived_path": "design/evidence/demo-review-mobile.webp",
+      "derived_sha256": "f677233fb0ed4568a70a6eb983c30c072ec246ecf76bd3a97dbabe3adbaaff7e",
+      "original_bytes": 121734,
+      "derived_bytes": 37396,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        350,
+        754
+      ]
+    },
+    {
+      "original_path": "design/evidence/homepage-desktop.png",
+      "original_sha256": "3706baaf634be905a69de4d685897648043e86b899225aa04a8d9c1a864d2a88",
+      "derived_path": "design/evidence/homepage-desktop.webp",
+      "derived_sha256": "e67c7b917b950b4eb0d873082304548a4c8aa4ccf9b0655b13606d0f648b7deb",
+      "original_bytes": 1289785,
+      "derived_bytes": 396764,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        5061
+      ]
+    },
+    {
+      "original_path": "design/evidence/homepage-mobile.png",
+      "original_sha256": "8ec02294fbe8c266b042b24c46ad96723119dcd2b04641adcd41fb8c8154b757",
+      "derived_path": "design/evidence/homepage-mobile.webp",
+      "derived_sha256": "09d4483c53266bd4952bd126687418ec271798769f76b292cbd35d9ac9d6be29",
+      "original_bytes": 580847,
+      "derived_bytes": 270758,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        390,
+        6549
+      ]
+    },
+    {
+      "original_path": "design/studies/gallery.png",
+      "original_sha256": "d72d18f191a69cde443ef7bf4c9d1e79c2c6eea60d807068cbbad3778f52d4f2",
+      "derived_path": "design/studies/gallery.webp",
+      "derived_sha256": "7023a8578f83e284521d02cfe87811ae68ec3c3c98b7938647b4c37e3b8d65a2",
+      "original_bytes": 674757,
+      "derived_bytes": 143368,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/studio-updated.png",
+      "original_sha256": "607e12812b2c241e9d7870fe1607683c7bc0e7f837bec5224d9d2385093921ed",
+      "derived_path": "design/studies/studio-updated.webp",
+      "derived_sha256": "1618ad799450de7135abc25112f0caaef309fe83794de62a441e169d9608ef5b",
+      "original_bytes": 504620,
+      "derived_bytes": 114888,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/studio.png",
+      "original_sha256": "52de9ea5c08fd6d0efad90c581a51b405eab6a611bf06043e8d7893cffb918c7",
+      "derived_path": "design/studies/studio.webp",
+      "derived_sha256": "2bd0632f96e79c5398475c2fc83a72118e905e5f06cd5d0dd6de973db473a24e",
+      "original_bytes": 504672,
+      "derived_bytes": 114202,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/timeline.png",
+      "original_sha256": "542470e89609ce76b62e5d6eb9635027e7094672e8b71cd3e24478464870a47e",
+      "derived_path": "design/studies/timeline.webp",
+      "derived_sha256": "5ba8e4e0deac8c16bb423b7afad64fc0c723ad70a7d903ba6d406d508c450e8a",
+      "original_bytes": 455365,
+      "derived_bytes": 107224,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    }
+  ]
+}

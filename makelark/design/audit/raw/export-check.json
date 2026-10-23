@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-23T04:02:45.868Z",
+  "browser": "156.0.8078.47",
+  "sha256": "00ba5371b5393f0724f113691b4edce97337e311b835ad573ed79a54592f47c7",
+  "passed": true,
+  "offline": true,
+  "networkRequests": 0,
+  "errors": [],
+  "missingImages": [],
+  "industries": [
+    "automotive",
+    "accounting",
+    "real-estate",
+    "law",
+    "manufacturing",
+    "restaurant"
+  ],
+  "emailDraftPrepared": true,
+  "emailOpenedOrSent": false
+}

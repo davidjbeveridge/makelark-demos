@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "kind": "ai-tell-review-signals",
+  "authorship_inference": "not-performed",
+  "root": "/workspace/scratch/3cf8876eb52a/makelark-demos/makelark",
+  "summary": {
+    "files_scanned": 5,
+    "bytes_scanned": 81792,
+    "distinct_signals": 2,
+    "total_signal_matches": 6,
+    "aggregate_findings": 1,
+    "clusters": 0,
+    "category_matches": {
+      "decoration": 1,
+      "surface": 5
+    }
+  },
+  "signals": [
+    {
+      "id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "count": 5
+    },
+    {
+      "id": "sparkle-decoration",
+      "category": "decoration",
+      "severity": "medium",
+      "description": "Sparkle/star decoration is a common generic AI-product motif.",
+      "count": 1
+    }
+  ],
+  "aggregate_findings": [
+    {
+      "id": "container-vocabulary-saturation",
+      "category": "component-anatomy",
+      "severity": "medium",
+      "description": "Heavy card/tile/panel vocabulary can indicate container-first composition.",
+      "count": 85,
+      "minimum_matches": 18,
+      "evidence": [
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 5534,
+          "excerpt": "…ff;padding:6px 8px;color:#373c68;box-shadow:0 2px 6px #0001}.studio-change-panel{display:flex;flex-direction:column;padding:22px 22px 17px;border-left:1px solid var(--studio-line);…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 5675,
+          "excerpt": "…rder-left:1px solid var(--studio-line);min-width:0;background:#fff}.studio-panel-topline{display:flex;align-items:center;justify-content:space-between;gap:3px;margin-bottom:9px}.st…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 5785,
+          "excerpt": "…ems:center;justify-content:space-between;gap:3px;margin-bottom:9px}.studio-panel-eyebrow{font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#727a8d;li…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 6184,
+          "excerpt": "…dio-blue)}.studio-reset .studio-icon{width:14px;height:14px}.studio-change-panel>h3{font-family:Manrope,Arial,sans-serif!important;font-size:20px!important;line-height:1.25!importa…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 6417,
+          "excerpt": "…portant;margin:0 0 9px!important;color:var(--studio-ink)!important}.studio-panel-intro{font-size:11px!important;line-height:1.65!important;color:#70788b!important;margin:0 0 19px!i…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 6563,
+          "excerpt": "…70788b!important;margin:0 0 19px!important;max-width:240px}.studio-request-card{border:1px solid #e2e5f0;border-radius:8px;padding:13px 14px;background:#fafbff;margin-bottom:15px}.…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 6931,
+          "excerpt": "…ground:#e8eafa;font-size:7px;font-weight:700;color:#5964a2}.studio-request-card p{margin:10px 0 2px!important;font-size:13px!important;line-height:1.6!important;letter-spacing:-.15…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 9856,
+          "excerpt": "…nter}.studio-app-footer .studio-icon{width:12px;height:12px}.studio-detail-panel{position:absolute;left:36px;right:36px;top:76px;bottom:46px;z-index:4;padding:34px;background:#fff;…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 10325,
+          "excerpt": "…color:#6d7487}.studio-detail-close:hover{background:#f1f2f7}.studio-detail-panel>h3{font-size:24px!important;line-height:1.2!important;letter-spacing:-.8px!important;color:var(--st…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 10489,
+          "excerpt": "…t;color:var(--studio-ink)!important;margin:12px 0!important}.studio-detail-panel>p{font-size:12px!important;line-height:1.7!important;color:#6b7488!important;margin:0 0 14px!import…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 10629,
+          "excerpt": "…#6b7488!important;margin:0 0 14px!important;max-width:440px}.studio-detail-panel>.studio-detail-note{font-size:10px!important;color:#888fa0!important}.studio-secondary-action{displ…"
+        },
+        {
+          "file": "demo.css",
+          "line": 3,
+          "column": 10985,
+          "excerpt": "…dding:10px 14px;font-size:11px!important;font-weight:700!important}.studio-panel-pointed{animation:studio-point 700ms ease-out}@keyframes studio-point{0%{box-shadow:inset 0 0 0 2px…"
+        },
+        {
+          "file": "demo.css",
+          "line": 4,
+          "column": 106,
+          "excerpt": "…io-workspace{grid-template-columns:58px minmax(0,1fr) 316px}.studio-change-panel{padding:26px 26px 20px}.studio-panel-intro{margin-bottom:22px!important}.studio-site-hero{min-heigh…"
+        },
+        {
+          "file": "demo.css",
+          "line": 4,
+          "column": 143,
+          "excerpt": "…px minmax(0,1fr) 316px}.studio-change-panel{padding:26px 26px 20px}.studio-panel-intro{margin-bottom:22px!important}.studio-site-hero{min-height:311px;padding-left:35px}.studio-sit…"
+        },
+        {
+          "file": "demo.css",
+          "line": 4,
+          "column": 423,
+          "excerpt": "…font-size:9px}.studio-main-action{font-size:12px!important}.studio-request-card p{font-size:14px!important}.studio-panel-eyebrow{font-size:9px}.studio-action-note{font-size:10px!im…"
+        },
+        {
+          "file": "demo.css",
+          "line": 4,
+          "column": 463,
+          "excerpt": "…ize:12px!important}.studio-request-card p{font-size:14px!important}.studio-panel-eyebrow{font-size:9px}.studio-action-note{font-size:10px!important}.studio-example-label{font-size:…"
+        },
+        {
+          "file": "demo.css",
+          "line": 5,
+          "column": 185,
+          "excerpt": "…px}.studio-rail-item{width:36px}.studio-canvas{padding:12px}.studio-change-panel{padding:20px 16px 16px}.studio-site-nav{padding:0 18px}.studio-site-hero{padding-left:20px;padding-…"
+        },
+        {
+          "file": "demo.css",
+          "line": 5,
+          "column": 538,
+          "excerpt": "…ation-label{display:none}.studio-annotation{right:14px;bottom:18px}.studio-panel-eyebrow{font-size:7px}.studio-change-panel>h3{font-size:18px!important}.studio-detail-panel{left:22…"
+        },
+        {
+          "file": "demo.css",
+          "line": 5,
+          "column": 581,
+          "excerpt": "…{right:14px;bottom:18px}.studio-panel-eyebrow{font-size:7px}.studio-change-panel>h3{font-size:18px!important}.studio-detail-panel{left:22px;right:22px;padding:26px 20px}.studio-det…"
+        },
+        {
+          "file": "demo.css",
+          "line": 5,
+          "column": 630,
+          "excerpt": "…yebrow{font-size:7px}.studio-change-panel>h3{font-size:18px!important}.studio-detail-panel{left:22px;right:22px;padding:26px 20px}.studio-detail-panel>h3{font-size:21px!important}}"
+        },
+        {
+          "file": "demo.css",
+          "line": 5,
+          "column": 690,
+          "excerpt": "…yebrow{font-size:7px}.studio-change-panel>h3{font-size:18px!important}.studio-detail-panel{left:22px;right:22px;padding:26px 20px}.studio-detail-panel>h3{font-size:21px!important}}"
+        },
+        {
+          "file": "demo.css",
+          "line": 6,
+          "column": 1363,
+          "excerpt": "…studio-site-bottom{padding:0 19px;height:29px;font-size:7px}.studio-change-panel{padding:23px;border-left:0;border-top:1px solid var(--studio-line)}.studio-panel-topline{margin-bot…"
+        },
+        {
+          "file": "demo.css",
+          "line": 6,
+          "column": 1444,
+          "excerpt": "…padding:23px;border-left:0;border-top:1px solid var(--studio-line)}.studio-panel-topline{margin-bottom:10px}.studio-panel-eyebrow{font-size:10px}.studio-change-panel>h3{font-size:2…"
+        },
+        {
+          "file": "demo.css",
+          "line": 6,
+          "column": 1485,
+          "excerpt": "… solid var(--studio-line)}.studio-panel-topline{margin-bottom:10px}.studio-panel-eyebrow{font-size:10px}.studio-change-panel>h3{font-size:23px!important;letter-spacing:-.7px!import…"
+        },
+        {
+          "file": "demo.css",
+          "line": 6,
+          "column": 1529,
+          "excerpt": "…ine{margin-bottom:10px}.studio-panel-eyebrow{font-size:10px}.studio-change-panel>h3{font-size:23px!important;letter-spacing:-.7px!important}.studio-panel-intro{font-size:13px!impor…"
+        }
+      ]
+    }
+  ],
+  "clusters": [],
+  "evidence": [
+    {
+      "signal_id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "file": "demo.css",
+      "line": 3,
+      "column": 3613,
+      "excerpt": "…-2}.studio-site-hero:after{content:\"\";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,23,25,.7),rgba(9,23,25,.36) 49%,rgba(9,23,25,.04) 100%);z-index:-1}.studio-s…"
+    },
+    {
+      "signal_id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "file": "demo.css",
+      "line": 6,
+      "column": 1126,
+      "excerpt": "…o-site-photo{object-position:57% center}.studio-site-hero:after{background:linear-gradient(90deg,rgba(9,23,25,.77),rgba(9,23,25,.38) 65%,rgba(9,23,25,.12))}.studio-annotation{right…"
+    },
+    {
+      "signal_id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "file": "demo.css",
+      "line": 12,
+      "column": 304,
+      "excerpt": "…udio-site-hero{background-color:#203035}.studio-site-hero:after{background:linear-gradient(90deg,rgba(9,23,25,.78),rgba(9,23,25,.62) 70%,rgba(9,23,25,.08))}.studio-site-copy h3{fon…"
+    },
+    {
+      "signal_id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "file": "demo.css",
+      "line": 13,
+      "column": 60,
+      "excerpt": "@media(max-width:720px){.studio-site-hero:after{background:linear-gradient(90deg,rgba(9,23,25,.82),rgba(9,23,25,.68) 75%,rgba(9,23,25,.25))}.studio-panel-eyebrow{font-size:10px}}"
+    },
+    {
+      "signal_id": "sparkle-decoration",
+      "category": "decoration",
+      "severity": "medium",
+      "description": "Sparkle/star decoration is a common generic AI-product motif.",
+      "file": "demo.js",
+      "line": 17,
+      "column": 5,
+      "excerpt": "sparkle: '<path d=\"m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6L12 3Z\"/>',"
+    },
+    {
+      "signal_id": "gradient-declaration",
+      "category": "surface",
+      "severity": "low",
+      "description": "Gradient declaration; review whether it carries the art direction or merely adds polish.",
+      "file": "styles.css",
+      "line": 8,
+      "column": 35,
+      "excerpt": ".hero{padding-top:66px;background:linear-gradient(180deg,var(--paper) 0%,var(--paper) 45%,#edf0fa 100%);padding-bottom:25px}.hero-copy{text-align:center}.hero-eyebrow{display:flex;…"
+    }
+  ],
+  "interpretation": "Review signals in context. Do not treat this report as an AI detector or automatic removal list."
+}

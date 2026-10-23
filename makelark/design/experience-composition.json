@@ -1,0 +1,49 @@
+{
+  "sequence": [
+    {
+      "phase": "Recognize",
+      "surface": "Header/hero",
+      "attention": "Product name, outcome headline, early-access action",
+      "agency": "Direct contact action or enter demo",
+      "rest": "Stable, no autoplay"
+    },
+    {
+      "phase": "Understand",
+      "surface": "Workspace",
+      "attention": "A real-looking website result inside a recognizable software tool",
+      "agency": "Request, compare, approve, reset",
+      "continuity": "Same preview remains visible"
+    },
+    {
+      "phase": "Apply",
+      "surface": "Workflow/business context",
+      "attention": "How a business update becomes a website update",
+      "agency": "Browse relevant context",
+      "rest": "Editorial reading pace"
+    },
+    {
+      "phase": "Trust",
+      "surface": "Status/FAQ",
+      "attention": "What Studio does and what early access means",
+      "agency": "Open questions at will",
+      "continuity": "Claims remain grounded"
+    },
+    {
+      "phase": "Act",
+      "surface": "Early access/footer",
+      "attention": "A truthful contact route",
+      "agency": "Contact, copy details or leave without pressure",
+      "interruption": "No forced modal or auto submission"
+    }
+  ],
+  "time_authority": "User controls the demo. No timed narrative required.",
+  "sound": "None.",
+  "interruption": "No essential information depends on animation completion; reset restores initial demo.",
+  "adaptations": [
+    "Stack desktop preview and controls on mobile",
+    "Keep primary action and product result readable",
+    "Honor reduced motion",
+    "Preserve touch and keyboard access"
+  ],
+  "scope_note": "This encounter plan is for the production marketing homepage. Study screenshots test the opening composition, not every final acceptance requirement."
+}

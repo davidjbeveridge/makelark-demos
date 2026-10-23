@@ -1,0 +1,26 @@
+{
+  "kind": "final-production-source-manifest",
+  "source_hashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+    "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+    "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+    "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+    "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+    "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+    "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+    "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+    "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+    "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+    "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+    "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+    "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+    "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+  },
+  "core_matches_final_qa": true,
+  "core_matches_final_critic": true
+}

@@ -1,0 +1,46 @@
+{
+  "status": "reviewed",
+  "scope": "Homepage structural and copy subtraction",
+  "evidence": [
+    "design/direction-record.json",
+    "design/audit/raw/critic-original.json",
+    "design/audit/copy-review.json"
+  ],
+  "decisions": [
+    {
+      "item": "Primary concept",
+      "action": "selected-one",
+      "reason": "One useful website-change workflow is the focal experience; gallery and temporal narrative do not become competing heroes."
+    },
+    {
+      "item": "Business imagery",
+      "action": "retained",
+      "reason": "Shows real business contexts; images remain explicitly illustrative."
+    },
+    {
+      "item": "Product status and approval disclosures",
+      "action": "retained",
+      "reason": "Necessary truth, not removable clutter."
+    },
+    {
+      "item": "Decorative visual world and fabricated proof",
+      "action": "excluded-during-design",
+      "reason": "No unsupported metrics, client logos, artwork theme, or ornamental cinematic layer was introduced."
+    },
+    {
+      "item": "Secondary demo chrome on mobile",
+      "action": "refined-and-verified",
+      "reason": "Independent final review verified compact mobile workspace while preserving the useful request/result/action."
+    },
+    {
+      "item": "FAQ explanatory prose",
+      "action": "retained",
+      "reason": "Answers product availability, technical-skill and approval objections directly."
+    }
+  ],
+  "not_claimed": [
+    "No deletion of existing source is claimed where an element was excluded during initial composition.",
+    "No conversion improvement is inferred from subtraction."
+  ],
+  "final_verification": "design/audit/raw/critic-final.json"
+}

@@ -1,0 +1,110 @@
+{
+  "review_type": "Independent visual and functional review",
+  "reviewer": "repo_recon",
+  "reviewed_at_utc": "2026-10-23T03:58:20.085Z",
+  "scope": "MakeLark homepage only; desktop and mobile actual browser renders, complete page, functional interactions",
+  "scale": "0-10; higher is better",
+  "overall_score": 8.2,
+  "verdict": "Ready for homepage review. All reported functional and mobile copy defects are corrected; no remaining blockers in the tested build.",
+  "first_impression": "A credible software product for business websites. The page quickly establishes the product, the customer benefit, and early-access status. Its strongest evidence is the working request/review/approve example.",
+  "dimensions": {
+    "product_and_audience_fit": {
+      "score": 9,
+      "evidence": "The opening speaks to business owners, not designers or engineers. Six industry examples describe concrete customer actions: fleet quotes, consultations, viewings, machining inquiries, and private dining. Planned capability is clearly qualified."
+    },
+    "clarity_and_claims": {
+      "score": 8.5,
+      "evidence": "The product is named in the opening, AI's role and customer review are legible, and development status is visible. No invented social proof, customer results, pricing, or live AI execution is claimed. 'A better website' is broad, but the interaction makes the benefit tangible."
+    },
+    "hierarchy_and_dominance": {
+      "score": 8.7,
+      "evidence": "The hero claim dominates, followed by the action pair and product workspace. The dark ongoing-work section creates a clear change of pace. Primary action contrast is consistent. At1440 the preview action is visible in the first1000px, while some product detail remains below the fold."
+    },
+    "spacing_and_composition": {
+      "score": 8.5,
+      "evidence": "Consistent content width and generous breathing room make the desktop page scan well. Benefits, business examples, workflow, FAQ, and access form have distinct compositions. The complete390px page is6549px tall; mobile demo chrome was shortened without changing the desktop composition."
+    },
+    "typography_and_readability": {
+      "score": 8.2,
+      "evidence": "Self-hosted Manrope creates a cohesive identity. Strong display scale and restrained body weights are effective. Main mobile copy is readable after the size increase. Some miniature interface labels are appropriately secondary; they should not carry essential information. Two hidden-line-break boundaries initially concatenated words on mobile and were reported for correction."
+    },
+    "interaction_and_usability": {
+      "score": 8.5,
+      "evidence": "Request, comparison, approval and reset work. Approval requires seeing the updated version. Each of six visible business examples now opens the correct interactive Studio scenario. Navigation, FAQ, keyboard controls, and mobile manufacturing journey pass. The early-access form honestly creates an email draft with copy fallback, which still requires an email application or manual copy."
+    },
+    "responsive_practicality": {
+      "score": 8.2,
+      "evidence": "No overflow at320/390/768/1024/1440. All six industry choices are visible in a mobile3x2 grid. Inputs and principal controls are usable. The refined review demo is captured completely in a754px-high screenshot, allowing its preview and approval controls to be considered together on an844px-high phone viewport."
+    },
+    "distinctiveness_and_brand": {
+      "score": 7,
+      "evidence": "The folded lark, controlled blue and coherent product workspace feel intentional. The centered two-line headline, three benefits, dark process section, FAQ and form are familiar SaaS patterns. The site's distinctiveness comes chiefly from its concrete website-change example, not a novel visual system."
+    }
+  },
+  "serious_gaps": [],
+  "minor_findings": [
+    {
+      "id": "mobile-whitespace",
+      "status": "fixed_and_visually_verified",
+      "severity": "minor",
+      "evidence": "At390px, hiding br elements creates 'Different customers.A website' and 'Before yournext move.'",
+      "recommendation": "Insert actual whitespace adjacent to the br elements; desktop rendering is unaffected."
+    },
+    {
+      "id": "business-heading-orphan",
+      "status": "fixed_and_visually_verified",
+      "severity": "minor",
+      "evidence": "At390px, business section heading ends with isolated 'it.' on a fourth line.",
+      "recommendation": "Shorten the second clause or adjust only this heading's wrapping."
+    }
+  ],
+  "practical_limits": [
+    "This review verifies the homepage and local illustrative interaction, not a production Studio service.",
+    "The email draft is prepared correctly; no email link was opened and no message was sent.",
+    "No comparison to the old ChatGPT Sites version was made, in accordance with the user's prohibition.",
+    "Automated browser checks do not constitute a complete assistive-technology audit."
+  ],
+  "functional_evidence": "final-v2/functional.json",
+  "original_defect_evidence": "functional.json",
+  "visual_evidence": [
+    "final-v2/hero-1440.png",
+    "final-v2/homepage-1440.png",
+    "final-v2/hero-390.png",
+    "final-v2/homepage-390.png",
+    "final-v2/hero-320.png",
+    "final-v2/hero-768.png",
+    "final-v2/hero-1024.png",
+    "final-v2/business-mobile.png",
+    "final-v2/continuity-mobile.png",
+    "final-v2/faq-mobile.png",
+    "final-v2/form-mobile.png",
+    "final-v2/demo-review-desktop.png",
+    "final-v2/demo-review-mobile.png",
+    "final-v2/nojs-mobile.png"
+  ],
+  "copy_fix_evidence": "final/copy-recheck.json",
+  "source_hashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd"
+  },
+  "functional_checks_passed": 15,
+  "refinements_completed": [
+    {
+      "priority": 1,
+      "change": "Make the selected business example tryable in Studio.",
+      "why": "The page has six useful business scenarios, but the real-estate demo is the only one reachable through the visible hero. Visitors should be able to try the relevant change for their own industry.",
+      "implementation": "Add a Try this example action in each business story; call the existing MakeLarkDemo.setIndustry(id), then scroll to the demo. Keep the early-access action available.",
+      "status": "implemented_and_verified"
+    },
+    {
+      "priority": 2,
+      "change": "Fit the mobile request and its website preview into one viewing pass.",
+      "why": "At390px, the demo is883px tall before review, larger than the844px phone viewport. The preview and change controls become separate scroll tasks.",
+      "implementation": "Reduce the mobile sample site photo/header chrome height and shorten secondary workspace text so its request and main action can be seen alongside most of the site. Preserve14px+ core copy and44px controls.",
+      "status": "implemented_and_verified"
+    }
+  ]
+}

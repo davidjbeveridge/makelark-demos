@@ -1,0 +1,429 @@
+{
+  "checkedAt": "2026-10-23T03:58:20.085Z",
+  "testedUrl": "http://127.0.0.1:8765/makelark-demos/makelark/",
+  "sourceHashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd"
+  },
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyWidth": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 5061,
+      "overflowing": [],
+      "font": "Manrope, Arial, sans-serif",
+      "fontLoaded": true,
+      "badImages": [],
+      "primary": [
+        {
+          "selector": "H1.",
+          "box": {
+            "x": 128,
+            "y": 177.5,
+            "width": 1184,
+            "height": 162.78125,
+            "top": 177.5,
+            "right": 1312,
+            "bottom": 340.28125,
+            "left": 128
+          }
+        },
+        {
+          "selector": "DIV.hero-actions",
+          "box": {
+            "x": 128,
+            "y": 446.78125,
+            "width": 1184,
+            "height": 50,
+            "top": 446.78125,
+            "right": 1312,
+            "bottom": 496.78125,
+            "left": 128
+          }
+        },
+        {
+          "selector": "BUTTON.studio-main-action",
+          "box": {
+            "x": 1022,
+            "y": 901.90625,
+            "width": 263,
+            "height": 44,
+            "top": 901.90625,
+            "right": 1285,
+            "bottom": 945.90625,
+            "left": 1022
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "bodyWidth": 1024,
+      "documentWidth": 1024,
+      "pageHeight": 4816,
+      "overflowing": [],
+      "font": "Manrope, Arial, sans-serif",
+      "fontLoaded": true,
+      "badImages": [],
+      "primary": [
+        {
+          "selector": "H1.",
+          "box": {
+            "x": 28,
+            "y": 177.5,
+            "width": 968,
+            "height": 162.78125,
+            "top": 177.5,
+            "right": 996,
+            "bottom": 340.28125,
+            "left": 28
+          }
+        },
+        {
+          "selector": "DIV.hero-actions",
+          "box": {
+            "x": 28,
+            "y": 446.78125,
+            "width": 968,
+            "height": 50,
+            "top": 446.78125,
+            "right": 996,
+            "bottom": 496.78125,
+            "left": 28
+          }
+        },
+        {
+          "selector": "BUTTON.studio-main-action",
+          "box": {
+            "x": 718,
+            "y": 893.3125,
+            "width": 255,
+            "height": 44,
+            "top": 893.3125,
+            "right": 973,
+            "bottom": 937.3125,
+            "left": 718
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bodyWidth": 768,
+      "documentWidth": 768,
+      "pageHeight": 4738,
+      "overflowing": [],
+      "font": "Manrope, Arial, sans-serif",
+      "fontLoaded": true,
+      "badImages": [],
+      "primary": [
+        {
+          "selector": "H1.",
+          "box": {
+            "x": 28,
+            "y": 159.5,
+            "width": 712,
+            "height": 125.4375,
+            "top": 159.5,
+            "right": 740,
+            "bottom": 284.9375,
+            "left": 28
+          }
+        },
+        {
+          "selector": "DIV.hero-actions",
+          "box": {
+            "x": 28,
+            "y": 387.4375,
+            "width": 712,
+            "height": 50,
+            "top": 387.4375,
+            "right": 740,
+            "bottom": 437.4375,
+            "left": 28
+          }
+        },
+        {
+          "selector": "BUTTON.studio-main-action",
+          "box": {
+            "x": 486,
+            "y": 830.46875,
+            "width": 237,
+            "height": 44,
+            "top": 830.46875,
+            "right": 723,
+            "bottom": 874.46875,
+            "left": 486
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyWidth": 390,
+      "documentWidth": 390,
+      "pageHeight": 6549,
+      "overflowing": [],
+      "font": "Manrope, Arial, sans-serif",
+      "fontLoaded": true,
+      "badImages": [],
+      "primary": [
+        {
+          "selector": "H1.",
+          "box": {
+            "x": 20,
+            "y": 148.5,
+            "width": 350,
+            "height": 145.734375,
+            "top": 148.5,
+            "right": 370,
+            "bottom": 294.234375,
+            "left": 20
+          }
+        },
+        {
+          "selector": "DIV.hero-actions",
+          "box": {
+            "x": 20,
+            "y": 414.734375,
+            "width": 350,
+            "height": 46,
+            "top": 414.734375,
+            "right": 370,
+            "bottom": 460.734375,
+            "left": 20
+          }
+        },
+        {
+          "selector": "BUTTON.studio-main-action",
+          "box": {
+            "x": 41,
+            "y": 1035.234375,
+            "width": 308,
+            "height": 47,
+            "top": 1035.234375,
+            "right": 349,
+            "bottom": 1082.234375,
+            "left": 41
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "bodyWidth": 320,
+      "documentWidth": 320,
+      "pageHeight": 6858,
+      "overflowing": [],
+      "font": "Manrope, Arial, sans-serif",
+      "fontLoaded": true,
+      "badImages": [],
+      "primary": [
+        {
+          "selector": "H1.",
+          "box": {
+            "x": 16,
+            "y": 148.5,
+            "width": 288,
+            "height": 128.8125,
+            "top": 148.5,
+            "right": 304,
+            "bottom": 277.3125,
+            "left": 16
+          }
+        },
+        {
+          "selector": "DIV.hero-actions",
+          "box": {
+            "x": 16,
+            "y": 397.8125,
+            "width": 288,
+            "height": 56,
+            "top": 397.8125,
+            "right": 304,
+            "bottom": 453.8125,
+            "left": 16
+          }
+        },
+        {
+          "selector": "BUTTON.studio-main-action",
+          "box": {
+            "x": 37,
+            "y": 1028.3125,
+            "width": 246,
+            "height": 47,
+            "top": 1028.3125,
+            "right": 283,
+            "bottom": 1075.3125,
+            "left": 37
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "demo request -> review -> original/updated -> approve -> reset",
+      "passed": true,
+      "evidence": {
+        "original": "Find a place to\ncall your own.",
+        "updated": "Your next chapter\nstarts here."
+      }
+    },
+    {
+      "name": "example website detail, Escape and focus restoration",
+      "passed": true
+    },
+    {
+      "name": "six industry tabs and ARIA keyboard selection",
+      "passed": true,
+      "evidence": [
+        {
+          "id": "automotive",
+          "headline": "Great work deserves\nto be seen."
+        },
+        {
+          "id": "accounting",
+          "headline": "Make complex work\nfeel approachable."
+        },
+        {
+          "id": "real-estate",
+          "headline": "Turn a first look\ninto a conversation."
+        },
+        {
+          "id": "law",
+          "headline": "Build confidence\nbefore the first call."
+        },
+        {
+          "id": "manufacturing",
+          "headline": "Show what you\ncan make possible."
+        },
+        {
+          "id": "restaurant",
+          "headline": "Make the next visit\neasy to imagine."
+        }
+      ]
+    },
+    {
+      "name": "each industry opens a relevant, complete Studio example",
+      "passed": true,
+      "evidence": [
+        {
+          "industry": "automotive",
+          "request": "Add fleet servicing with a quote request.",
+          "original": "Keep your business\nmoving.",
+          "updated": "Your fleet.\nIn good hands."
+        },
+        {
+          "industry": "accounting",
+          "request": "Add a tax-planning consultation.",
+          "original": "Know where\nyou stand.",
+          "updated": "Plan ahead.\nMove forward."
+        },
+        {
+          "industry": "real-estate",
+          "request": "Add a private viewing request.",
+          "original": "Find a place to\ncall your own.",
+          "updated": "Your next chapter\nstarts here."
+        },
+        {
+          "industry": "law",
+          "request": "Add an initial consultation request.",
+          "original": "The right support.\nThe next step.",
+          "updated": "Let’s talk about\nwhat comes next."
+        },
+        {
+          "industry": "manufacturing",
+          "request": "Add a custom machining quote request.",
+          "original": "Built around\nyour next part.",
+          "updated": "From your drawing\nto the next step."
+        },
+        {
+          "industry": "restaurant",
+          "request": "Add a private dining enquiry.",
+          "original": "A seat at\nour table.",
+          "updated": "Make it\nan occasion."
+        }
+      ]
+    },
+    {
+      "name": "FAQ keyboard open and close",
+      "passed": true
+    },
+    {
+      "name": "form rejects empty, invalid email and whitespace name",
+      "passed": true
+    },
+    {
+      "name": "form prepares encoded mailto without sending",
+      "passed": true,
+      "evidence": {
+        "protocol": "mailto:",
+        "recipient": "admin@makelark.com",
+        "subject": "MakeLark Studio early access",
+        "noSendClicked": true
+      }
+    },
+    {
+      "name": "clipboard rejection exposes selected text fallback",
+      "passed": true
+    },
+    {
+      "name": "prepared request updates clipboard fallback after editing",
+      "passed": true
+    },
+    {
+      "name": "mobile menu toggle, anchor closure, Escape",
+      "passed": true
+    },
+    {
+      "name": "mobile demo request -> compare -> approve",
+      "passed": true
+    },
+    {
+      "name": "reduced motion styles suppress motion",
+      "passed": true,
+      "evidence": {
+        "scroll": "auto",
+        "transition": "0s",
+        "animation": "none"
+      }
+    },
+    {
+      "name": "no-JavaScript primary content and email fallback",
+      "passed": true
+    },
+    {
+      "name": "no-JavaScript form does not expose entered values in URL",
+      "passed": true
+    },
+    {
+      "name": "source unchanged throughout verification",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "requests": [],
+  "browser": "156.0.8078.47",
+  "noJsSubmittedURL": "http://127.0.0.1:8765/makelark-demos/makelark/",
+  "passed": true
+}

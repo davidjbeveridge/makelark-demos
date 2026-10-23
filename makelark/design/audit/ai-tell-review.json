@@ -1,0 +1,30 @@
+{
+  "status": "reviewed",
+  "raw_source": "audit/raw/ai-tell-source.json",
+  "summary": {
+    "clusters": 0,
+    "raw_signals": 6,
+    "raw_aggregate_findings": 1
+  },
+  "decisions": [
+    {
+      "signal": "gradient-declaration",
+      "disposition": "retained-in-context",
+      "reason": "Photographic contrast overlays and restrained state/surface treatment have specific roles; not gradient headline ornament."
+    },
+    {
+      "signal": "sparkle-decoration",
+      "disposition": "minor-style-signal",
+      "reason": "One small product-state symbol is not the hero concept. It remains a minor conventional AI cue, not a claim of originality."
+    },
+    {
+      "signal": "container-vocabulary-saturation",
+      "disposition": "contextual-false-positive",
+      "reason": "Repeated panel/card CSS names primarily describe one real application workspace; source vocabulary count does not establish a repetitive card-wall composition."
+    }
+  ],
+  "authorship_inference": "none",
+  "limitations": [
+    "Scanner signals are reviewed as craft concerns, not an AI authorship detector."
+  ]
+}

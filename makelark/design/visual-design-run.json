@@ -1,0 +1,989 @@
+{
+  "schema_version": 1,
+  "task": {
+    "id": "makelark-homepage",
+    "summary": "Product-focused MakeLark homepage with an interactive Studio example",
+    "scope": "broad-redesign",
+    "ambition": "showcase",
+    "experience_freedom": "constrained",
+    "identity_fidelity": "strict"
+  },
+  "route": [
+    "xenia-discovery",
+    "xenia-design-research",
+    "naming-if-needed",
+    "xenia-creative-seeds",
+    "xenia-direction-explorer",
+    "xenia-ambition-amplifier",
+    "xenia-visual-metaphor",
+    "xenia-media-router",
+    "xenia-image-enrichment",
+    "xenia-iconography",
+    "xenia-motion-enrichment",
+    "concept-visualization",
+    "studio-review-or-delegated-selection",
+    "xenia-brief-forge",
+    "signature-prototype",
+    "implementation",
+    "rendered-proof",
+    "xenia-critic-loop",
+    "xenia-subtraction",
+    "xenia-ai-tell-audit",
+    "xenia-copy-polish",
+    "xenia-production-gate",
+    "user-feedback-and-iteration"
+  ],
+  "assumptions": [
+    "The homepage explains an in-development product and uses fictional business examples.",
+    "An email-draft contact route is acceptable until a real submission endpoint exists."
+  ],
+  "artifacts": {
+    "brief": "design/design-brief.json",
+    "direction": "design/direction-record.json",
+    "critic": "design/audit/raw/critic-final.json",
+    "copy": "design/audit/copy-review.json",
+    "subtraction": "design/audit/subtraction.json",
+    "functional": "design/audit/functional.json",
+    "inspect": "design/audit/inspect-reviewed.json",
+    "signature": "design/audit/signature-proof.json"
+  },
+  "techniques": [
+    {
+      "id": "external-entropy",
+      "skill": "xenia-creative-seeds",
+      "status": "applied",
+      "rationale": "Reproducible Xenia sampling generated a 48-candidate pool before selection.",
+      "evidence": [
+        "design/direction-record.json"
+      ]
+    },
+    {
+      "id": "ambitious-directions",
+      "skill": "xenia-direction-explorer",
+      "status": "applied",
+      "rationale": "Compared three materially different rendered hero compositions.",
+      "evidence": [
+        "design/study-review.md",
+        "design/studies/studio.webp",
+        "design/studies/gallery.webp",
+        "design/studies/timeline.webp"
+      ]
+    },
+    {
+      "id": "ambition-amplification",
+      "skill": "xenia-ambition-amplifier",
+      "status": "applied",
+      "rationale": "Applied the bundled pinned expander once; increased product proof without increasing homepage scope.",
+      "evidence": [
+        "design/direction-record.json"
+      ]
+    },
+    {
+      "id": "fresh-context-critic",
+      "skill": "xenia-critic-loop",
+      "status": "applied",
+      "rationale": "Separate reviewer inspected the implementation and interactions; preserves its actual score of 8.2. Strict context isolation is not established.",
+      "evidence": [
+        "design/audit/raw/critic-original.json"
+      ]
+    },
+    {
+      "id": "image-enrichment",
+      "skill": "xenia-image-enrichment",
+      "status": "applied",
+      "rationale": "Reused existing supplied generated business images in fictional examples and the original identity assets.",
+      "evidence": [
+        "design/study-review.md"
+      ]
+    },
+    {
+      "id": "motion-enrichment",
+      "skill": "xenia-motion-enrichment",
+      "status": "applied",
+      "rationale": "Selected brief user-triggered feedback with reduced-motion behavior. No timed choreography or generated video.",
+      "evidence": [
+        "design/design-brief.json"
+      ]
+    },
+    {
+      "id": "subtraction",
+      "skill": "xenia-subtraction",
+      "status": "applied",
+      "rationale": "Reviewed structural focus, required disclosures and mobile density.",
+      "evidence": [
+        "design/audit/subtraction.json"
+      ]
+    },
+    {
+      "id": "ai-tell-removal",
+      "skill": "xenia-ai-tell-audit",
+      "status": "applied",
+      "rationale": "Scanned and adjudicated craft signals in context; no authorship claim.",
+      "evidence": [
+        "design/audit/raw/ai-tell-source.json",
+        "design/audit/ai-tell-review.json"
+      ]
+    },
+    {
+      "id": "copy-rewrite",
+      "skill": "xenia-copy-polish",
+      "status": "applied",
+      "rationale": "Reviewed every lint signal and preserved verified mobile copy fixes.",
+      "evidence": [
+        "design/audit/raw/copy-lint-source.json",
+        "design/audit/copy-review.json"
+      ]
+    }
+  ],
+  "gate": {
+    "status": "FAIL",
+    "report": "design/design-gate.md",
+    "reason": "Actual critic score 8.2 remains below target 9.0. Functional checks pass; the gate is honest review evidence, not a claim that the homepage is unusable."
+  },
+  "workflow": {
+    "schema_version": 1,
+    "mode": "autopilot",
+    "media": [
+      "web"
+    ],
+    "delivery_stage": "production",
+    "stage": "deliver",
+    "scope": "broad-redesign",
+    "knowledge": [
+      {
+        "fact": "MakeLark Studio is the website product; MakeLark is the parent identity.",
+        "status": "confirmed"
+      },
+      {
+        "fact": "Studio is in development; all demonstration behavior is local and illustrative.",
+        "status": "confirmed"
+      },
+      {
+        "fact": "Homepage only and no ChatGPT Sites.",
+        "status": "confirmed"
+      }
+    ],
+    "research": [
+      {
+        "type": "source-review",
+        "source": "Xenia current repository guidance and supplied brand guide",
+        "limitation": "No customer interviews or competitor usability study claimed."
+      }
+    ],
+    "metaphors": [
+      {
+        "strategy": "literal product example",
+        "mapping": "Owner request becomes a clearly visible website edit",
+        "chosen": true,
+        "boundary": "No AI model or live publishing is executed"
+      },
+      {
+        "strategy": "concrete analogy",
+        "mapping": "Studio workbench with tools and drafts",
+        "chosen": false,
+        "boundary": "Physical workbench decoration adds no product understanding"
+      },
+      {
+        "strategy": "abstract relationship",
+        "mapping": "Business change and website change stay in step",
+        "chosen": "secondary",
+        "boundary": "Use shared timing/cause-and-effect only, not abstract motion"
+      },
+      {
+        "strategy": "atmosphere",
+        "mapping": "Architectural precision and approachable brand warmth",
+        "chosen": "supporting",
+        "boundary": "Business photographs stay in examples; no claims that photos depict real customers"
+      }
+    ],
+    "decisions": [
+      {
+        "decision": "The working Studio",
+        "reason": "Clear product mechanism and tangible business result."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "studio",
+        "name": "The working Studio",
+        "premise": "Understand the product by trying one useful local change",
+        "composition": "Outcome-led typography above a dominant website canvas and review rail",
+        "strength": "Immediate product recognition and a concrete differentiator",
+        "risk": "Demo must remain legible; avoid overly dense dashboard chrome",
+        "selection": "selected"
+      },
+      {
+        "id": "gallery",
+        "name": "The business gallery",
+        "premise": "Recognize the value through finished business website examples",
+        "composition": "Centered promise followed by three differently sized photographic business-site panels",
+        "strength": "Tangible business range and attractive output",
+        "risk": "May read as an agency portfolio or template marketplace; evidence-heavy",
+        "selection": "rejected as primary"
+      },
+      {
+        "id": "timeline",
+        "name": "The day after launch",
+        "premise": "Website improves as the business changes",
+        "composition": "Asymmetric headline with change history rail beside one evolving site",
+        "strength": "Makes continuing value understandable",
+        "risk": "Weak initial product/category recognition; better as a supporting section",
+        "selection": "adapted as secondary story"
+      }
+    ],
+    "selection": {
+      "id": "studio",
+      "status": "delegated",
+      "source": "User delegated the homepage concept choice.",
+      "protected": [
+        "Outcome-first headline",
+        "Visible website outcome inside a recognizable software workspace",
+        "Original logo and Manrope typography",
+        "Large architectural image with readable native text",
+        "Owner control and reversible comparison",
+        "Honest early-access and illustrative-demo status"
+      ]
+    },
+    "assets": [
+      {
+        "id": "brand-identity",
+        "medium": "brand",
+        "status": "ready",
+        "required": true,
+        "purpose": "Recognizable MakeLark identity",
+        "meaning": "Original folded lark and wordmark",
+        "rights": "cleared",
+        "evidence": [
+          "desktop",
+          "mobile"
+        ]
+      },
+      {
+        "id": "business-images",
+        "medium": "image",
+        "status": "ready",
+        "required": true,
+        "purpose": "Tangible fictional business examples",
+        "meaning": "Website content for six business contexts",
+        "rights": "cleared",
+        "evidence": [
+          "desktop",
+          "mobile",
+          "functional",
+          "export"
+        ]
+      },
+      {
+        "id": "manrope",
+        "medium": "brand",
+        "status": "ready",
+        "required": true,
+        "purpose": "Readable native brand typography",
+        "meaning": "Consistent product and marketing hierarchy",
+        "rights": "cleared",
+        "evidence": [
+          "desktop",
+          "mobile",
+          "rights"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "brief",
+        "path": "design/brief-validation.json",
+        "sha256": "e0c2924b0cf38903b5cc04c6b7491eb4acbcdfb846f4563bd1fe20d4953aff75",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent: validated actual contract",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "desktop",
+        "path": "design/evidence/homepage-desktop.webp",
+        "sha256": "e67c7b917b950b4eb0d873082304548a4c8aa4ccf9b0655b13606d0f648b7deb",
+        "kind": "render",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "mobile",
+        "path": "design/evidence/homepage-mobile.webp",
+        "sha256": "09d4483c53266bd4952bd126687418ec271798769f76b292cbd35d9ac9d6be29",
+        "kind": "render",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "demo-desktop",
+        "path": "design/evidence/demo-review-desktop.webp",
+        "sha256": "a0b270e73b739d08d75d03d970511917cbfd23b53ac448b8c9f5bbc782b05d23",
+        "kind": "render",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "demo-mobile",
+        "path": "design/evidence/demo-review-mobile.webp",
+        "sha256": "f677233fb0ed4568a70a6eb983c30c072ec246ecf76bd3a97dbabe3adbaaff7e",
+        "kind": "render",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "runtime",
+        "path": "design/audit/inspect-reviewed.json",
+        "sha256": "86c0251dd7c2ae73629e2141f4964bd6277a6e6beaef11441544e74465b9ecbd",
+        "kind": "test",
+        "inspection": "inspected",
+        "inspected_by": "Root runtime capture; design agent contextual review",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "functional",
+        "path": "design/audit/functional.json",
+        "sha256": "643ab5ac99ca3881ea1da078aaa6e6773e5d6644905a7dac8e2251ca492cb5c5",
+        "kind": "test",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "critic",
+        "path": "design/audit/raw/critic-final.json",
+        "sha256": "c2217bf35e4f9dd4b99b8e72990b7bfe7ff5ac77ab2b6a7818e733046d452d0c",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer; raw scores unchanged",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "copy",
+        "path": "design/audit/copy-review.json",
+        "sha256": "f7094dbc314f7d9410ade7e930eb42151f258ae6af7523ded419fc78a5d3bf80",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent contextual review",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "subtraction",
+        "path": "design/audit/subtraction.json",
+        "sha256": "514a4cdeb0a4723249b7b995ff358f2f09d4d7b35e2bbf7793ffc0cb03c62970",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "ai-tells",
+        "path": "design/audit/ai-tell-review.json",
+        "sha256": "38d8de1639cbc8fd850676d5417089e9fa344b9ddd68ebfc5ca2d5fe86e64052",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent contextual review",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "rights",
+        "path": "design/audit/asset-provenance.json",
+        "sha256": "cebadeb2084753d45c1785aea36b8ebbf5ac7562f8fbdf7f17591d31e7938868",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent supplied-asset provenance review",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "export",
+        "path": "design/audit/raw/export-check.json",
+        "sha256": "db3a5e7987b37f78c56f07a8862f7a07d1d7d35165b1aed5d25418ef04592400",
+        "kind": "test",
+        "inspection": "inspected",
+        "inspected_by": "Independent implementation reviewer",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      },
+      {
+        "id": "signature",
+        "path": "design/audit/signature-proof.json",
+        "sha256": "f08cb3cfe82bd22236457ee95b0603761eb4492039fab6718d660b5dd9b2b602",
+        "kind": "review",
+        "inspection": "inspected",
+        "inspected_by": "Design agent verified actual functional evidence",
+        "source_hashes": {
+          "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+          "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+          "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+          "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+          "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+          "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+          "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+          "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+          "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+          "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+          "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+          "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+          "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+          "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+          "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+          "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+          "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+          "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+          "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      }
+    ],
+    "artifact_sources": [
+      {
+        "path": "index.html",
+        "sha256": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83"
+      },
+      {
+        "path": "script.js",
+        "sha256": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd"
+      },
+      {
+        "path": "demo.css",
+        "sha256": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2"
+      },
+      {
+        "path": "demo.js",
+        "sha256": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841"
+      },
+      {
+        "path": "assets/accounting.webp",
+        "sha256": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7"
+      },
+      {
+        "path": "assets/automotive.webp",
+        "sha256": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4"
+      },
+      {
+        "path": "assets/lark.svg",
+        "sha256": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6"
+      },
+      {
+        "path": "assets/law.webp",
+        "sha256": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4"
+      },
+      {
+        "path": "assets/manrope-400.woff",
+        "sha256": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae"
+      },
+      {
+        "path": "assets/manrope-500.woff",
+        "sha256": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256"
+      },
+      {
+        "path": "assets/manrope-600.woff",
+        "sha256": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d"
+      },
+      {
+        "path": "assets/manrope-700.woff",
+        "sha256": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611"
+      },
+      {
+        "path": "assets/manrope-800.woff",
+        "sha256": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c"
+      },
+      {
+        "path": "assets/manufacturing.webp",
+        "sha256": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489"
+      },
+      {
+        "path": "assets/real-estate.webp",
+        "sha256": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46"
+      },
+      {
+        "path": "assets/restaurant.webp",
+        "sha256": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3"
+      },
+      {
+        "path": "assets/wordmark.svg",
+        "sha256": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6"
+      },
+      {
+        "path": "assets/manrope-OFL.txt",
+        "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+      }
+    ],
+    "checks": {
+      "brief": {
+        "status": "passed",
+        "evidence": [
+          "brief"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "rendered": {
+        "status": "passed",
+        "evidence": [
+          "desktop",
+          "mobile",
+          "demo-desktop",
+          "demo-mobile"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "visual": {
+        "status": "passed",
+        "evidence": [
+          "critic"
+        ],
+        "rationale": "Visual review completed. Aesthetic score 8.2 is below the 9.0 target; this check records performance of the review, not target attainment."
+      },
+      "copy": {
+        "status": "passed",
+        "evidence": [
+          "copy"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "subtraction": {
+        "status": "passed",
+        "evidence": [
+          "subtraction"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "ai-tells": {
+        "status": "passed",
+        "evidence": [
+          "ai-tells"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "outcomes": {
+        "status": "passed",
+        "evidence": [
+          "functional",
+          "critic"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "delight": {
+        "status": "passed",
+        "evidence": [
+          "signature",
+          "critic"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "continuity": {
+        "status": "passed",
+        "evidence": [
+          "signature",
+          "critic"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "accessibility": {
+        "status": "passed",
+        "evidence": [
+          "runtime",
+          "functional"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "rights": {
+        "status": "passed",
+        "evidence": [
+          "rights"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "medium": {
+        "status": "passed",
+        "evidence": [
+          "desktop",
+          "mobile",
+          "functional"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "functional": {
+        "status": "passed",
+        "evidence": [
+          "functional"
+        ],
+        "rationale": "Review/check completed; no absolute conformance or performance score implied."
+      },
+      "performance": {
+        "status": "passed",
+        "evidence": [
+          "functional",
+          "export"
+        ],
+        "rationale": "No browser errors or missing assets; exported page works offline with zero requests. No Lighthouse, field-performance, or load-time claim."
+      }
+    },
+    "feedback": [
+      {
+        "source": "Independent implementation review",
+        "kind": "polish",
+        "scope": "task",
+        "text": "Make the selected industry tryable in Studio and compact the mobile example.",
+        "interpretation": "Both implemented and verified in final source without introducing speculative visual novelty."
+      }
+    ],
+    "quality": {
+      "score": 8.2,
+      "dimensions": {
+        "product_and_audience_fit": 9,
+        "clarity_and_claims": 8.5,
+        "hierarchy_and_dominance": 8.7,
+        "spacing_and_composition": 8.5,
+        "typography_and_readability": 8.2,
+        "interaction_and_usability": 8.5,
+        "responsive_practicality": 8.2,
+        "distinctiveness_and_brand": 7
+      },
+      "severe_gaps": [],
+      "protected": [
+        {
+          "name": "Outcome-first headline",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        },
+        {
+          "name": "Visible website outcome inside a recognizable software workspace",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        },
+        {
+          "name": "Original logo and Manrope typography",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        },
+        {
+          "name": "Large architectural image with readable native text",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        },
+        {
+          "name": "Owner control and reversible comparison",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        },
+        {
+          "name": "Honest early-access and illustrative-demo status",
+          "status": "preserved",
+          "evidence": [
+            "design/audit/raw/critic-final.json",
+            "design/evidence/homepage-desktop.webp",
+            "design/evidence/homepage-mobile.webp"
+          ]
+        }
+      ],
+      "cycles": [
+        {
+          "score": 8.2,
+          "source": "design/audit/raw/critic-original.json",
+          "gap": "Under the 9.0 design target; functional and truth requirements pass. Two practical refinements are verified separately, without changing this score."
+        },
+        {
+          "score": 8.2,
+          "source": "design/audit/raw/critic-final.json",
+          "gap": "Two practical refinements verified; same independent score retained. Distinctiveness target remains unmet."
+        }
+      ],
+      "requested_model": null,
+      "actual_model": null,
+      "requested_effort": null,
+      "actual_effort": null,
+      "isolation": "unknown"
+    },
+    "budget": {
+      "max_cycles": 6,
+      "target_score": 9.0
+    },
+    "invalidated": []
+  }
+}

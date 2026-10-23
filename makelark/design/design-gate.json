@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "kind": "xenia-production-gate",
+  "delivery_stage": "production",
+  "status": "FAIL",
+  "strict": false,
+  "critic_score": 8.2,
+  "critic_threshold": 9.0,
+  "functional": {
+    "passed": 15,
+    "total": 15
+  },
+  "summary": {
+    "active_failures": 2,
+    "active_warnings": 1,
+    "waived": 0,
+    "by_code": {
+      "critic.score": 1,
+      "workflow.invalid": 1,
+      "workflow.limitation": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "critic.score",
+      "level": "fail",
+      "message": "Critic score 8.20 is below threshold 9.00.",
+      "source": "design/audit/raw/critic-final.json",
+      "evidence": {
+        "score": 8.2,
+        "threshold": 9.0
+      },
+      "waived": false,
+      "waiver": null
+    },
+    {
+      "code": "workflow.invalid",
+      "level": "fail",
+      "message": "quality target is unmet; budget exhaustion is not acceptance",
+      "source": "design/visual-design-run.json",
+      "evidence": {},
+      "waived": false,
+      "waiver": null
+    },
+    {
+      "code": "workflow.limitation",
+      "level": "warn",
+      "message": "independent critic isolation was unavailable or unverified",
+      "source": "design/visual-design-run.json",
+      "evidence": {},
+      "waived": false,
+      "waiver": null
+    }
+  ],
+  "limitations": [
+    "Machine-readable evidence does not replace direct render review.",
+    "Runtime contrast and clipping checks can produce false positives and should be verified before waiver.",
+    "PASS does not claim complete accessibility, browser coverage, or pixel-perfect fidelity."
+  ]
+}
