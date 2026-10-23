@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "experience_promise": "The owner sees an illustrative website change before choosing whether to approve it.",
+  "defining_moment": "A native request updates the fictional site; original/updated comparison, local approval, and reset work for all six business examples.",
+  "evidence": [
+    "design/audit/functional.json",
+    "design/evidence/demo-review-desktop.webp",
+    "design/evidence/demo-review-mobile.webp",
+    "design/audit/inspect-reviewed.json"
+  ],
+  "temporal_evidence_required": false,
+  "temporal_evidence": [],
+  "source_hashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd"
+  },
+  "boundary": "This proves a local illustrative interaction, not AI execution or production-site publishing."
+}

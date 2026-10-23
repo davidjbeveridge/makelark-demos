@@ -1,0 +1,151 @@
+{
+  "mode": "Autopilot",
+  "scope": "One MakeLark homepage",
+  "selection": {
+    "id": "studio",
+    "reason": "Best fit for a real early-access website product: makes the mechanism and useful outcome immediately visible while maintaining a direct invitation.",
+    "chosen_by": "Agent under explicit creative delegation"
+  },
+  "prompt_expansion": {
+    "source_revision": "638394999cb76969c447475724ff643f32f00a5d",
+    "reframing": "The homepage must make a real business website product immediately understandable and worth trying. Put the product's useful interaction at the center, and let visual craft make that explanation compelling.",
+    "dimensions_used": {
+      "Altitude": "Optimize for product understanding and early-access interest; do not expand to product implementation.",
+      "Depth": "Require a useful interaction and rendered checks of the actual homepage, honest product status and CTA.",
+      "Range": "Borrow workshop feedback and editorial hierarchy as relationships; compare literal demonstration against gallery and temporal narrative.",
+      "Speed": "Reuse recovered brand assets, parallelize product demo and direction research, keep one meaningful interaction rather than a complex tour."
+    },
+    "upgrades": [
+      "Make the product demonstration carry the design",
+      "Explore composition and story, not color variations",
+      "Prove a reversible useful change",
+      "Preserve factual and visual identity constraints",
+      "Validate complete desktop/mobile interaction"
+    ],
+    "constraint_check": "Pass: homepage only; existing identity retained; no Sites; no fictional capability, access, paid generation, publication permission, or testimonials inferred."
+  },
+  "source_name": "Xenia bundled Prompt Ambition Expander",
+  "entropy": {
+    "seed": "makelark-home-20261022",
+    "bank_sha256": "50fd2693cc1576cc27605c12cc38770161b340600e22cf0c2b65b322b559dc8c",
+    "pool_count": 48,
+    "secondary_seed": "makelark-studio-20261022"
+  },
+  "idea_inventory": [
+    "Working canvas: owner requests a change inside a credible website workspace.",
+    "Business gallery: three full-size websites establish breadth before explaining tools.",
+    "Day after launch: new business needs become a simple sequence of site updates.",
+    "Before and after: compare an unclear offer with a clear business-specific page.",
+    "Private viewing: follow one customer action from homepage to enquiry.",
+    "One request: lead with a common owner request, then show the complete edited section.",
+    "A business owner's desk: project status and website preview replace files and email threads.",
+    "Editorial case note: one fictional business and a concrete communication problem.",
+    "Annotated document: make visual feedback resemble a familiar review process.",
+    "Launch checklist: show completed essentials as a compact practical opening.",
+    "Content first: headline, image, and action compose into a useful business story.",
+    "Customer journey: business need, site answer, next action in one continuous reading path.",
+    "Mobile first: a phone-sized business site establishes usefulness before desktop controls.",
+    "Desktop/mobile comparison: same site shows responsive outcomes with a simple toggle.",
+    "One surface, many businesses: alternate genuine business contexts in a shared product frame.",
+    "Website health: static operational essentials explain continuing care without fabricated analytics.",
+    "Open page and review rail: a readable site with a narrow owner-feedback panel.",
+    "Three verbs: create, improve, and manage use different visual density and pacing.",
+    "Opportunity notice: an upcoming service launch triggers the example update.",
+    "Archive of improvements: a concise visible history supports continuity and control.",
+    "Portrait of a business: contextual image and brand copy explain why generic templates fall short.",
+    "Guided tour: linear short demo with explicit Next/Back and stable preview.",
+    "Comparison and approval: reversible original/updated states are the focal event.",
+    "Quiet product manifesto: plain audience questions answered through working UI examples."
+  ],
+  "shortlist": [
+    {
+      "id": "studio",
+      "name": "The working Studio",
+      "premise": "Understand the product by trying one useful local change",
+      "composition": "Outcome-led typography above a dominant website canvas and review rail",
+      "strength": "Immediate product recognition and a concrete differentiator",
+      "risk": "Demo must remain legible; avoid overly dense dashboard chrome",
+      "selection": "selected"
+    },
+    {
+      "id": "gallery",
+      "name": "The business gallery",
+      "premise": "Recognize the value through finished business website examples",
+      "composition": "Centered promise followed by three differently sized photographic business-site panels",
+      "strength": "Tangible business range and attractive output",
+      "risk": "May read as an agency portfolio or template marketplace; evidence-heavy",
+      "selection": "rejected as primary"
+    },
+    {
+      "id": "timeline",
+      "name": "The day after launch",
+      "premise": "Website improves as the business changes",
+      "composition": "Asymmetric headline with change history rail beside one evolving site",
+      "strength": "Makes continuing value understandable",
+      "risk": "Weak initial product/category recognition; better as a supporting section",
+      "selection": "adapted as secondary story"
+    }
+  ],
+  "lineage": [
+    {
+      "sampled_input": "signal + wiring + operating-system",
+      "extracted_relationship": "A coherent visible connection between an owner's request and the website result",
+      "substantive_change": "Keep request and result in the same product frame",
+      "decision": "reinterpreted without public operating-system jargon"
+    },
+    {
+      "sampled_input": "ribbon + folding + orchestra",
+      "extracted_relationship": "Separate stages coordinate around one shared object",
+      "substantive_change": "Request/review/approval retain the same website canvas rather than replacing it with unrelated cards",
+      "decision": "reinterpreted; no ribbons or ornamental folding"
+    },
+    {
+      "sampled_input": "bellows + tuning + grid",
+      "extracted_relationship": "Parameter tuning",
+      "substantive_change": "Would introduce control complexity unrelated to business owner intent",
+      "decision": "rejected"
+    },
+    {
+      "sampled_input": "compass + collaging + stack",
+      "extracted_relationship": "A navigable collection of choices",
+      "substantive_change": "Industry gallery alternative",
+      "decision": "retained as candidate, rejected as main direction"
+    }
+  ],
+  "metaphor_comparison": [
+    {
+      "strategy": "literal product example",
+      "mapping": "Owner request becomes a clearly visible website edit",
+      "chosen": true,
+      "boundary": "No AI model or live publishing is executed"
+    },
+    {
+      "strategy": "concrete analogy",
+      "mapping": "Studio workbench with tools and drafts",
+      "chosen": false,
+      "boundary": "Physical workbench decoration adds no product understanding"
+    },
+    {
+      "strategy": "abstract relationship",
+      "mapping": "Business change and website change stay in step",
+      "chosen": "secondary",
+      "boundary": "Use shared timing/cause-and-effect only, not abstract motion"
+    },
+    {
+      "strategy": "atmosphere",
+      "mapping": "Architectural precision and approachable brand warmth",
+      "chosen": "supporting",
+      "boundary": "Business photographs stay in examples; no claims that photos depict real customers"
+    }
+  ],
+  "limitations": [
+    "Owner-context-led design; no customer research or measured conversion result.",
+    "Sampling aids coverage, not aesthetic certification."
+  ],
+  "packaged_study_source": {
+    "path": "design/studies/studies.html",
+    "sha256": "ffb9b4f850482d3bef6f828947371c23fc098a96c617dd614187322ac2f89da0",
+    "source_normalization": "Uses ../../assets/ paths; packaged self-hosted WOFF font faces replace the corresponding original TTF references. No composition or interaction changes.",
+    "original_study_copy_sha256": "5e67d9041bafb26c80e25998debd9a7849b477472813dbd7b469fb7ed629c13f"
+  }
+}

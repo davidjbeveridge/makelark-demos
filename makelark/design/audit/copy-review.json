@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "kind": "adjudicated-visible-copy-review",
+  "source": "audit/raw/copy-lint-source.json",
+  "source_sha256": "de5515f446d04728531b7641d01e1fc43ba85b77c9dd4676497816aae13c3bcd",
+  "summary": {
+    "findings": 0,
+    "duplicate_groups": 0,
+    "raw_findings": 12,
+    "reviewed_findings": 12,
+    "raw_duplicate_groups": 2
+  },
+  "decisions": [
+    {
+      "finding_index": 0,
+      "id": "filler-introduction",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: introduces the product name and launch-stage context. Optional tightening, not an unsupported claim."
+    },
+    {
+      "finding_index": 1,
+      "id": "long-ui-string",
+      "disposition": "contextual-false-positive",
+      "reason": "Aggregation signal: the extractor concatenated a complete workspace/section. Individual labels and paragraphs are reviewed separately."
+    },
+    {
+      "finding_index": 2,
+      "id": "title-case-saturation",
+      "disposition": "contextual-false-positive",
+      "reason": "False positive from concatenated industry-tab labels; individual labels use conventional capitalization."
+    },
+    {
+      "finding_index": 3,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 4,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 5,
+      "id": "long-ui-string",
+      "disposition": "contextual-false-positive",
+      "reason": "Aggregation signal: the extractor concatenated a complete workspace/section. Individual labels and paragraphs are reviewed separately."
+    },
+    {
+      "finding_index": 6,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 7,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 8,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 9,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 10,
+      "id": "long-ui-string",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: short explanatory paragraph/FAQ answer; the 120-character UI-label threshold is not appropriate to prose. Wording preserves required product-stage and approval context."
+    },
+    {
+      "finding_index": 11,
+      "id": "ornamental-ellipsis",
+      "disposition": "reviewed-retained",
+      "reason": "Retained: placeholder lists non-exhaustive request examples. It is not a suspense device or essential instruction."
+    }
+  ],
+  "duplicate_decisions": [
+    {
+      "text": "MakeLark home / MakeLark",
+      "disposition": "reviewed-retained",
+      "reason": "Expected header/footer home-link accessible names and brand image alt text, not repeated marketing prose."
+    }
+  ],
+  "observed_corrections": [
+    "Independent review verified actual whitespace around hidden mobile line breaks.",
+    "Independent review verified the business heading wraps without an orphan."
+  ],
+  "limitations": [
+    "This contextual adjudication does not erase the immutable source lint report.",
+    "Final source binding is recorded after the freeze."
+  ],
+  "final_addendum": {
+    "source": "design/audit/raw/critic-final.json",
+    "verified_changes": [
+      "Mobile whitespace and heading wrapping are corrected.",
+      "Try this example names a visible action that loads the selected industry into Studio."
+    ],
+    "remaining_signal_policy": "Retained low-severity stylistic signals are explicit contextual decisions; raw report stays unchanged."
+  }
+}

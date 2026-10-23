@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "kind": "xenia-web-proof-captures",
+  "generated_at": "2026-10-23T03:58:20.621Z",
+  "runtime": {
+    "node": "v24.19.0",
+    "browser": "chromium",
+    "browser_version": "156.0.8078.47",
+    "device_scale_factor": 1
+  },
+  "states": [
+    {
+      "name": "base",
+      "actions": []
+    }
+  ],
+  "captures": [
+    {
+      "file": "design/evidence/homepage-desktop.webp",
+      "file_relative": "design/evidence/homepage-desktop.webp",
+      "title": "MakeLark Studio — A better website. A simpler way to run it.",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "state": "base",
+      "reduced_motion": "reduce",
+      "full_page": true,
+      "clip": null,
+      "observations": {
+        "runtime_errors": [],
+        "failed_assets": []
+      }
+    },
+    {
+      "file": "design/evidence/homepage-mobile.webp",
+      "file_relative": "design/evidence/homepage-mobile.webp",
+      "title": "MakeLark Studio — A better website. A simpler way to run it.",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "state": "base",
+      "reduced_motion": "reduce",
+      "full_page": true,
+      "clip": null,
+      "observations": {
+        "runtime_errors": [],
+        "failed_assets": []
+      }
+    }
+  ],
+  "source_hashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "assets/accounting.webp": "e0b04aae751b28e14bac7ff69449289418a4ad26f03939733d088d42516fe8d7",
+    "assets/automotive.webp": "ed8a08e75247ad2d0df6277649679bdd376401134a1b57e10bd06bdf92bcd2e4",
+    "assets/lark.svg": "29d5e3bf5754a01e2834670489570c79d03815c9c859288d5f16082cb04a4db6",
+    "assets/law.webp": "1e8dd463f1509b185988d74f45dcc108efb2261aa70dbda9e3e83f64680c2aa4",
+    "assets/manrope-400.woff": "4f54d2fb8422ff7ee566b4caef61053a591bd9f35b2c1364bc2138ad5065baae",
+    "assets/manrope-500.woff": "2157e9b4faaa62fb35fe48b4db4227dfc3ddb9de04882f06c05dfd8fbe640256",
+    "assets/manrope-600.woff": "1edf2fb149bfa81704d2315287c01f5ba176f0945344c7c8de7df0de0701099d",
+    "assets/manrope-700.woff": "fe79d16acf5cb3a6fbcc16b46700b692d0fb77baf92204953fadf3fc40d0d611",
+    "assets/manrope-800.woff": "116886dd8b680ac494f114222e7bb0df6839b2f09d7ce8a0c8ecee9841e4857c",
+    "assets/manufacturing.webp": "f1ac94cd014fc42cdf4cfbe1ede9fdccf96bfb0485df4e65584582d3333b3489",
+    "assets/real-estate.webp": "67d9c2ddb3aa4c74873285c895eb6a9452066b25e97a8c6b06dc5cd5a2900c46",
+    "assets/restaurant.webp": "8677a9f4a78fc4cecca59fdc442b01fa1f1d515c13e1d36f534d1509efafc3c3",
+    "assets/wordmark.svg": "d545e0126c3906ceca2ddf0149973d0aeb413272e4cd7cb74f4255f538a651c6",
+    "assets/manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+  },
+  "reviewer": "Final renders inspected by independent reviewer; exported hero and compact mobile state also inspected by root.",
+  "image_derivations": [
+    {
+      "original_path": "design/evidence/demo-review-desktop.png",
+      "original_sha256": "46a04a1553f2fdd8645ea2c3fbd06875eef16a44ff84c50a4d4bc4bee0bcde9c",
+      "derived_path": "design/evidence/demo-review-desktop.webp",
+      "derived_sha256": "a0b270e73b739d08d75d03d970511917cbfd23b53ac448b8c9f5bbc782b05d23",
+      "original_bytes": 375999,
+      "derived_bytes": 71268,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1184,
+        558
+      ]
+    },
+    {
+      "original_path": "design/evidence/demo-review-mobile.png",
+      "original_sha256": "73266478a74d718881f0dc3147bcfd5539ab55f1d17dce28cc5533005973efc6",
+      "derived_path": "design/evidence/demo-review-mobile.webp",
+      "derived_sha256": "f677233fb0ed4568a70a6eb983c30c072ec246ecf76bd3a97dbabe3adbaaff7e",
+      "original_bytes": 121734,
+      "derived_bytes": 37396,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        350,
+        754
+      ]
+    },
+    {
+      "original_path": "design/evidence/homepage-desktop.png",
+      "original_sha256": "3706baaf634be905a69de4d685897648043e86b899225aa04a8d9c1a864d2a88",
+      "derived_path": "design/evidence/homepage-desktop.webp",
+      "derived_sha256": "e67c7b917b950b4eb0d873082304548a4c8aa4ccf9b0655b13606d0f648b7deb",
+      "original_bytes": 1289785,
+      "derived_bytes": 396764,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        5061
+      ]
+    },
+    {
+      "original_path": "design/evidence/homepage-mobile.png",
+      "original_sha256": "8ec02294fbe8c266b042b24c46ad96723119dcd2b04641adcd41fb8c8154b757",
+      "derived_path": "design/evidence/homepage-mobile.webp",
+      "derived_sha256": "09d4483c53266bd4952bd126687418ec271798769f76b292cbd35d9ac9d6be29",
+      "original_bytes": 580847,
+      "derived_bytes": 270758,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        390,
+        6549
+      ]
+    },
+    {
+      "original_path": "design/studies/gallery.png",
+      "original_sha256": "d72d18f191a69cde443ef7bf4c9d1e79c2c6eea60d807068cbbad3778f52d4f2",
+      "derived_path": "design/studies/gallery.webp",
+      "derived_sha256": "7023a8578f83e284521d02cfe87811ae68ec3c3c98b7938647b4c37e3b8d65a2",
+      "original_bytes": 674757,
+      "derived_bytes": 143368,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/studio-updated.png",
+      "original_sha256": "607e12812b2c241e9d7870fe1607683c7bc0e7f837bec5224d9d2385093921ed",
+      "derived_path": "design/studies/studio-updated.webp",
+      "derived_sha256": "1618ad799450de7135abc25112f0caaef309fe83794de62a441e169d9608ef5b",
+      "original_bytes": 504620,
+      "derived_bytes": 114888,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/studio.png",
+      "original_sha256": "52de9ea5c08fd6d0efad90c581a51b405eab6a611bf06043e8d7893cffb918c7",
+      "derived_path": "design/studies/studio.webp",
+      "derived_sha256": "2bd0632f96e79c5398475c2fc83a72118e905e5f06cd5d0dd6de973db473a24e",
+      "original_bytes": 504672,
+      "derived_bytes": 114202,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    },
+    {
+      "original_path": "design/studies/timeline.png",
+      "original_sha256": "542470e89609ce76b62e5d6eb9635027e7094672e8b71cd3e24478464870a47e",
+      "derived_path": "design/studies/timeline.webp",
+      "derived_sha256": "5ba8e4e0deac8c16bb423b7afad64fc0c723ad70a7d903ba6d406d508c450e8a",
+      "original_bytes": 455365,
+      "derived_bytes": 107224,
+      "operation": "Pillow WebP quality=90, method=6; unchanged dimensions",
+      "dimensions": [
+        1440,
+        1120
+      ]
+    }
+  ]
+}

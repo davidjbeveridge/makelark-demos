@@ -1,0 +1,186 @@
+{
+  "kind": "xenia-functional-adapter",
+  "source": "design/audit/raw/functional-final.json",
+  "source_sha256": "09aaea7aa5851bce44251ec9bdd2dfbd3bb7f1ad51da40404067ee1a4125b6b9",
+  "checks": [
+    {
+      "id": "demo request -> review -> original/updated -> approve -> reset",
+      "status": "pass",
+      "evidence": {
+        "original": "Find a place to\ncall your own.",
+        "updated": "Your next chapter\nstarts here."
+      }
+    },
+    {
+      "id": "example website detail, Escape and focus restoration",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "six industry tabs and ARIA keyboard selection",
+      "status": "pass",
+      "evidence": [
+        {
+          "id": "automotive",
+          "headline": "Great work deserves\nto be seen."
+        },
+        {
+          "id": "accounting",
+          "headline": "Make complex work\nfeel approachable."
+        },
+        {
+          "id": "real-estate",
+          "headline": "Turn a first look\ninto a conversation."
+        },
+        {
+          "id": "law",
+          "headline": "Build confidence\nbefore the first call."
+        },
+        {
+          "id": "manufacturing",
+          "headline": "Show what you\ncan make possible."
+        },
+        {
+          "id": "restaurant",
+          "headline": "Make the next visit\neasy to imagine."
+        }
+      ]
+    },
+    {
+      "id": "each industry opens a relevant, complete Studio example",
+      "status": "pass",
+      "evidence": [
+        {
+          "industry": "automotive",
+          "request": "Add fleet servicing with a quote request.",
+          "original": "Keep your business\nmoving.",
+          "updated": "Your fleet.\nIn good hands."
+        },
+        {
+          "industry": "accounting",
+          "request": "Add a tax-planning consultation.",
+          "original": "Know where\nyou stand.",
+          "updated": "Plan ahead.\nMove forward."
+        },
+        {
+          "industry": "real-estate",
+          "request": "Add a private viewing request.",
+          "original": "Find a place to\ncall your own.",
+          "updated": "Your next chapter\nstarts here."
+        },
+        {
+          "industry": "law",
+          "request": "Add an initial consultation request.",
+          "original": "The right support.\nThe next step.",
+          "updated": "Let’s talk about\nwhat comes next."
+        },
+        {
+          "industry": "manufacturing",
+          "request": "Add a custom machining quote request.",
+          "original": "Built around\nyour next part.",
+          "updated": "From your drawing\nto the next step."
+        },
+        {
+          "industry": "restaurant",
+          "request": "Add a private dining enquiry.",
+          "original": "A seat at\nour table.",
+          "updated": "Make it\nan occasion."
+        }
+      ]
+    },
+    {
+      "id": "FAQ keyboard open and close",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "form rejects empty, invalid email and whitespace name",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "form prepares encoded mailto without sending",
+      "status": "pass",
+      "evidence": {
+        "protocol": "mailto:",
+        "recipient": "admin@makelark.com",
+        "subject": "MakeLark Studio early access",
+        "noSendClicked": true
+      }
+    },
+    {
+      "id": "clipboard rejection exposes selected text fallback",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "prepared request updates clipboard fallback after editing",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "mobile menu toggle, anchor closure, Escape",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "mobile demo request -> compare -> approve",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "reduced motion styles suppress motion",
+      "status": "pass",
+      "evidence": {
+        "scroll": "auto",
+        "transition": "0s",
+        "animation": "none"
+      }
+    },
+    {
+      "id": "no-JavaScript primary content and email fallback",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "no-JavaScript form does not expose entered values in URL",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "id": "source unchanged throughout verification",
+      "status": "pass",
+      "evidence": null
+    }
+  ],
+  "source_hashes": {
+    "index.html": "176c08d011db80107b4c48277347ba9ac70a88e05e71e1b372b2c265a9ed0ef2",
+    "styles.css": "fa8051fb03cb99f133ea06b089f013d1108e966cbc348d7b179843560f855c83",
+    "demo.css": "4253b8582f484e4f6e3bfd7d7dc49582e1d8ff24534a6e6761ec4e74cbf57dc2",
+    "demo.js": "91ae856decc67cf0e2da7c8af876d4bb82999a06bece53b03cd66bde7dcdd841",
+    "script.js": "cb7aadcefe62344a99971cce869aa1559f13105c234b6bb8cc3a69e47f8c9afd"
+  },
+  "console_errors": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 720
+    }
+  ]
+}
